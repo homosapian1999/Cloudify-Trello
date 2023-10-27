@@ -18,7 +18,7 @@ Before you begin, make sure you have the following prerequisites:
 1. Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your-repo-url.git
+git clone [https://github.com/your-repo-url.git](https://github.com/homosapian1999/Cloudify-Trello)
 ```
 
 2. Navigate to the project directory:
@@ -46,9 +46,10 @@ To use the Trello API for card creation, you need to obtain API keys and generat
 4. Create a `.env` file in the project's root directory and add your Trello API credentials as follows:
 
 ```env
-REACT_APP_TRELLO_API_KEY=your-api-key
-REACT_APP_TRELLO_API_SECRET=your-api-secret
-REACT_APP_TRELLO_ACCESS_TOKEN=your-access-token
+VITE_API_KEY=Your Key
+VITE_TOKEN_KEY=Your Token
+VITE_BOARD=Board Id
+
 ```
 
 ## Running the App
@@ -59,7 +60,7 @@ Start the development server to run the app:
 npm run dev
 ```
 
-This will start the application and open it in your default web browser. You can access it at `http://localhost:3000`.
+This will start the application and open it in your default web browser. You can access it at `http://localhost:5173`.
 
 ## Using the App
 
@@ -81,9 +82,6 @@ If you encounter any issues, ensure that your API keys, secret, and access token
 
 Feel free to customize the app's design and functionality to suit your needs. The React components and styles can be modified in the `src` directory.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
@@ -92,6 +90,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-If you have any questions or need assistance, please feel free to contact [your-email@example.com].
+If you have any questions or need assistance, please feel free to contact [ankitd349@gmail.com].
 
 Happy card creating! 🚀
