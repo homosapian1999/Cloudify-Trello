@@ -18,7 +18,7 @@ Before you begin, make sure you have the following prerequisites:
 1. Clone the repository to your local machine:
 
 ```bash
-git clone [https://github.com/your-repo-url.git](https://github.com/homosapian1999/Cloudify-Trello)
+git clone [https://github.com/homosapian1999/Cloudify-Trello]
 ```
 
 2. Navigate to the project directory:
